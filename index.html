@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-School Webportal</title>
+    <!--CSS Script-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--/CSS Script-->
+
+    <link rel="stylesheet" href="style.css">
+    <!--linked with css style sheet-->
+
+</head>
+
+<body>
+
+    <!--Body is divided into 6 parts:
+    1.Top-part + (nav-area)
+    2. Funpart (2nd-area)
+    3. Resource part (mid area)
+    4. Online Course's part
+    5. Testimonial part
+    6. Footer part-->
+
+    <!--1.Top-part + (nav-area)-->
+
+    <div class="top-part">
+        <div class="container top-part">
+            <div class="nav-area">
+                <!--navigation bar-->
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/ICON/Logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end menu_content" id="navbarNav">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#books">Books<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#courses">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#others">Others</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                        </ul>
+                        <a class="nav-link sign-in-button" href="#sign in">Sign in</a>
+                    </div>
+                </nav>
+                <!--/navigation bar-->
+            </div>
+        </div>
+        <!--/1.Top-part + (nav-area)-->
+
+        <!--2. Funpart (2nd-area)-->
+        <div class="container funpart">
+            <div class="mw-100 p-3">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <h6>Are you ready to learn?</h6>
+                                    <h1>Learn with fun</h1>
+                                    <h1>on <span class="funpart-highlight">any schedule</span></h1>
+                                    <p class="funpart-para">Professional online courses, training & degree programs for
+                                        individuals and organizations.</p>
+                                    <button class="rest-button">Get Started</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <img src="images/Photos/Illustration.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/2. Funpart (2nd-area)-->
+
+    <!--3. Resource part (mid area)-->
+    <section>
+        <div class="container resources" id="resources">
+
+            <div class="card-deck">
+                <div class="card d-flex justify-content-center">
+                    <div class="card-image-1">
+                        <img src="images/ICON/book.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">1500+ Topics</h5>
+                        <p class="card-text">Learn anything.</p>
+                    </div>
+                </div>
+                <div class="card d-flex justify-content-center">
+                    <div class="card-image-2">
+                        <img src="images/ICON/Student.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">1800+ Students</h5>
+                        <p class="card-text">Learn anything</p>
+                    </div>
+                </div>
+                <div class="card d-flex justify-content-center">
+                    <div class="card-image-3">
+                        <img src="images/ICON/Test.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">9K+ Test Tokens</h5>
+                        <p class="card-text">Learn anything</p>
+                    </div>
+                </div>
+                <div class="card d-flex justify-content-center">
+                    <div class="card-image-4">
+                        <img src="images/ICON/Students.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">2000+ Students</h5>
+                        <p class="card-text">Learn anything</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/3. Resource part (mid area)-->
+
+    <!--4. Online Course's part-->
+    <section id="online-section">
+        <div class="container online-section-padding">
+            <div class="online-section-title">
+                <h1>Online Courses</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card psy-content">
+                        <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
+                        <div class="card-body card_text ">
+                            <h5 class="card-title">Clinical Psycholgy</h5>
+                            <p class="card-text">Designation</p>
+                            <button class="rest-button">Buy Course</button>
+                            <div class="card-icon">
+                                <span>
+                                    Starts 20 April 2020
+                                </span>
+                                <span> 60 Seats
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card psy-content">
+                        <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
+                        <div class="card-body card_text ">
+                            <h5 class="card-title">Modern Psychology</h5>
+                            <p class="card-text">Designation</p>
+                            <button class="rest-button">Buy Course</button>
+                            <div class="card-icon">
+                                <span>
+                                    Starts 20 April 2020
+                                </span>
+                                <span> 60 Seats
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card psy-content">
+                        <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+                        <div class="card-body card_text ">
+                            <h5 class="card-title">Criminal Psychology</h5>
+                            <p class="card-text">Designation</p>
+                            <button class="rest-button">Buy Course</button>
+                            <div class="card-icon">
+                                <span>
+                                    <img src="images/ICON/calendar.png" alt=""> 20 April 2020
+                                </span>
+                                <span>
+                                    <img src="images/ICON/people.png" alt=""> 60 Seats
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/4. Online Course's part-->
+
+    <!--5. Testimonial part-->
+    <section id="testimonial">
+        <div class="container testimonial-padding">
+            <div class="testimonial-title text-center">
+                <h1>Testimonial</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-md-offset-3">
+                    <!--/Offsetting columns-->
+                    <div class="testimonial-image">
+                        <img src="images/Photos/Man.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="testimonial-text">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or randomised words which don't look
+                            even slightly believable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//5. Testimonial part-->
+
+    <!--6. Footer part-->
+    <footer>
+        <div class="container">
+            <!--container-->
+            <div class="row">
+                <!--row-->
+                <div class="col-md-3">
+                    <div class="footer-box">
+                        <!--footer-box-->
+                        <p>Millions of people of all ages and from around the world are improving their lives with us
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-5 offset-1">
+                    <div class="footer-box">
+                        <ul>
+                            <li><b>Course</b></li>
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business</li>
+                            <li>Marketing</li>
+                            <li>Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-5 offset-1">
+                    <div class="footer-box">
+                        <ul>
+                            <li><b>Terms</b></li>
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business</li>
+                            <li>Marketing</li>
+                            <li>Engineering </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-5 offset-1">
+                    <div class="footer-box">
+                        <ul>
+                            <li><b>Useful Link</b></li>
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business</li>
+                            <li>Marketing</li>
+                            <li>Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <!--footer_bottom-->
+                <p> Copyright © 2020 | LugiA | A Programming-Hero Assignment </p>
+            </div>
+        </div>
+    </footer>
+    <!--/6. Footer part-->
+
+
+    <!--JS Script-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

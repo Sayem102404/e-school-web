@@ -1,0 +1,244 @@
+.container .top-part {
+    margin-bottom: 100px;
+    border-radius: 20px;
+    background-color: #F0FFF0;
+}
+.top-part {
+    background-color: #F0FFF0;
+}
+.menu_content ul li {
+    padding-left: 30px;
+}
+.container .funpart{
+    padding: 100px;
+}
+.nav-area {
+    padding-top: 20px;
+}
+.nav-area img {
+    width: 160px;
+}
+
+.container .resources {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+.sign-in-button {
+    /* Sign-in Button design */
+    background: #21B573;
+    border-radius: 33px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 2px;
+    padding: 9px 25px;
+    
+}
+
+.rest-button {
+    /* Rest of the Button design */
+    background-color: #2FA470;
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    transition: all .6s ease-in-out;
+}
+.sign-in-button:hover{
+     box-shadow: 5px 5px 5px 5px #dddada;
+     transition: 0.3s;
+}
+.rest-button:hover{
+    box-shadow: 5px 5px 5px 5px #dddada;
+    transition: 0.3s ease-in-out;
+}
+.funpart h6 {
+    /* funpart top line (Are you ready to learn?) design */
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+}
+
+.funpart-highlight {
+    /* funpart 2nd line design */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #21B573;
+}
+
+.funpart-para {
+    /* funpart paragraph line design */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+
+.resources .card {
+    max-width: 400px;
+    height: 200px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    font-size: 15px;
+    background-image: linear-gradient(to bottom,  #F0FFF0, #58c3ed);
+    padding: 10px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.resources .card h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+}
+
+.card-body .card-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #050525;
+}
+
+.card-image-1 img {
+    /* .resources's image-1 */
+    max-width: 50px;
+    border-radius: 4px;
+    background-image: url("images/ICON/book.png");
+    width: 75px;
+    height: 80px;
+    left: 831px;
+    top: 670px;
+}
+
+.card-image-2 img {
+    /* .resources's image-2 */
+    max-width: 50px;
+    border-radius: 4px;
+    background-image: url("images/ICON/Student.png");
+    width: 75px;
+    height: 80px;
+    left: 831px;
+    top: 670px;
+}
+
+.card-image-3 img {
+    /* .resources's image-3 */
+    max-width: 50px;
+    border-radius: 4px;
+    background-image: url("images/ICON/Test.png");
+    width: 75px;
+    height: 80px;
+    left: 831px;
+    top: 670px;
+}
+
+.card-image-4 img {
+    /* .resources's image-4 */
+    max-width: 50px;
+    border-radius: 4px;
+    background-image: url("images/ICON/Students.png");
+    width: 75px;
+    height: 80px;
+    left: 831px;
+    top: 670px;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 20px 10px #dddada;
+    text-align: center;
+}
+.card-icon{
+    padding-top: 10px;
+}
+.card-icon img {
+    width: 10%;
+}
+.underline {
+    background-image: linear-gradient(to bottom,#FF9C35,#FFD019);
+    height: 5px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.psy-content{
+    border-radius: 15px;
+    background: white;
+    box-shadow: 10px 10px 40px #ddd;
+    border: none;
+    overflow: hidden;
+    padding: 20px;
+}
+.online-section-padding {
+    padding: 100px 0 0 0;
+}
+.online-section-title {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.testimonial-padding {
+    padding: 100px 10px;
+}
+.testimonial-title {
+    padding-bottom: 50px;
+    color: #0f0e0e;
+}
+.text-center {
+    text-align: center!important;
+}
+.testimonial-image img {
+    width: 200px;
+    height: 200px;
+}
+.testimonial-text{
+    color: #000000;
+    font-size: 15px;
+    line-height: 30px;
+}
+footer {
+    background-color: #282531;
+    color: #ffffff;
+}
+.footer-box {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 1px;
+    list-style-type: none;
+    display:inline-block;
+    padding-top: 50px;
+}
+.footer-box ul li {
+    list-style-type: none;
+    display:inline-block;
+}
+.footer-box p {
+    font-size: 15px;
+    line-height: 30px;
+}
+.footer-bottom{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #CDCDCD;
+    text-align: center;
+    padding-top: 50px;
+
+}
